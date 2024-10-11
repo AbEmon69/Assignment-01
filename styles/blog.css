@@ -51,6 +51,23 @@ body{
      padding: 15px;
 }
 
+
+/* Common shared styles */
+
+.btn-warning{
+    border: 1px solid rgb(13, 19, 33);
+    opacity: 0.7;
+    color: rgb(13, 19, 33);
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 23px;
+    letter-spacing: 0%;
+    text-align: center;
+    padding: 10px 20px;
+    margin-top: 20px;
+    
+}
+
 /* Banner related styles */
 
 .banner{
@@ -113,3 +130,44 @@ text-align: center;
 .web-descrip{
     text-align: center;
 }
+
+/* Learn more */
+
+.web-container{
+    border-radius: 16px;
+    background: linear-gradient(270.00deg, rgb(255, 255, 255),rgba(255, 255, 255, 0) 100%);
+    padding: 20px 10px 20px 20px ;
+    margin-top: 30px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+.web-con-title{
+   margin-top: 20px;
+   
+}
+.web-tit{
+ margin-top: 10px;
+ color: rgba(13, 19, 33, 0.7);
+
+font-size: 24px;
+font-weight: 700;
+line-height: 36px;
+letter-spacing: 0%;
+text-align: left;
+}
+.web-des{
+   text-align: justify;
+   margin-top: 20px ;
+   color: rgb(13, 19, 33);
+
+font-size: 16px;
+font-weight: 400;
+line-height: 26px;
+letter-spacing: 0%;
+text-align: left;
+  
+}
+
+/* learn more two */
