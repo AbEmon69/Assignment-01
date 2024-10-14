@@ -432,3 +432,95 @@ text-align: left;
     padding: 30px;
     gap: 20px;
 }
+
+/* footer section */
+
+footer{
+    width: 80%;
+    margin: 0 auto;
+    padding: 0 40px;
+    
+}
+.Handshake{
+   
+    border-radius: 16px;
+    background: url('./images/handshake.jpg'); 
+    background-size: cover;
+   background-position: center;
+    border-radius: 16px;
+    padding: 30px 20px;
+    margin-top: 30px;
+}
+.Hand-content{
+    text-align: center;
+   
+  
+}
+.foot-tit{
+    color: rgb(255, 255, 255);
+    font-size: 32px;
+    font-weight: 700;
+    line-height: 36px;
+    letter-spacing: 0%;
+    text-align: center;
+    margin-top: 50px;
+    /* padding: 100px 0 0 0px; */
+    
+}
+
+.foot-description{
+     
+    color: ghostwhite;
+   font-size: 16px;
+   font-weight: 400;
+   line-height: 26px;
+   letter-spacing: 0%;
+   text-align: center;
+   margin-top: 20px;
+
+  
+}
+
+form input[type="text"]{
+    width: 50%;
+    box-sizing: border-box;
+    border: 1px solid rgba(13, 19, 33, 0.15);
+    border-radius: 8px;
+    background: rgb(255, 255, 255);
+    padding: 20px ;
+    margin-top: 24px;
+    color: rgba(13, 19, 33, 0.4);
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 19px;
+    letter-spacing: 0%;
+  
+   
+}
+form input[type="submit"]{
+    width: 12%;
+    border-radius: 8px;
+    background: rgb(255, 255, 255);
+    padding: 17px;
+    color: rgb(13, 19, 33);
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 23px;
+    letter-spacing: 0%;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.footer-content{
+    margin-top: 110px;
+}
+
+ .footer-content{
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+   background: rgba(13, 19, 33, 0.03);
+   margin-top: 150px;
+   
+ }
+ 
